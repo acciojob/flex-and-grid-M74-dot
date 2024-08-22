@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.div-wrapper{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+}
+.card{
+	border:10px solid #ccc;
+	background-color:#fafafa;
+	padding:20px;
+}
+.card h1{
+	font-size:1.5rem;
+}
+.card p{
+	font-size:0.75rem;
+}
